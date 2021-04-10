@@ -42,7 +42,19 @@ body {
 .address {
   font-style: inherit;
 }
+.logo-botom {
+  font-family: var(--second-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.logo-botom:hover {
+  text-decoration: underline #2196f3;
+}
 .logo {
   font-family: var(--second-font);
   font-weight: bold;
@@ -64,6 +76,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  background: #2f303a;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -83,6 +96,9 @@ body {
 .nav-decoration {
   color: #2196f3;
 }
+.dark-section {
+  background: #2f303a;
+}
 .btn {
   font-weight: bold;
   font-size: 16px;
@@ -95,7 +111,7 @@ body {
   color: var(--alt-title-cl);
   background-color: #2196f3;
 }
-.about-item {
+.about-title-item {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -117,9 +133,33 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
 
   color: #212121;
+}
+.team-job-item {
+  font-size: 16px;
+  line-height: 1.9;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.about-item {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.portfolio-items-project {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
